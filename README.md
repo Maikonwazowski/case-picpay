@@ -1,11 +1,11 @@
 
-# ✈️ Case PicPay - API de Escoragem Online com FastAPI + Machine Learning
+# Case PicPay - Machine Learning Engineer
 
 Este projeto implementa uma API de escoragem online para predição de atrasos em voos, utilizando FastAPI, Poetry e um modelo de machine learning com enriquecimento externo via APIs públicas.
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - `/model-airport/health/` — Verifica se a API e o modelo estão disponíveis
 - `/model-airport/model/load/` — Carrega um modelo `.pkl` enviado via upload
@@ -14,7 +14,7 @@ Este projeto implementa uma API de escoragem online para predição de atrasos e
 
 ---
 
-## 🧠 Stack utilizada
+## Stack utilizada
 
 - **Python 3.11**
 - **FastAPI** — Framework web assíncrono
@@ -26,7 +26,7 @@ Este projeto implementa uma API de escoragem online para predição de atrasos e
 
 ---
 
-## 🧪 Como rodar o projeto local
+## Como rodar o projeto local
 
 ```bash
 # Instale o ambiente virtual padrão
@@ -42,7 +42,7 @@ poetry install
 
 ---
 
-## 🧪 Como rodar os testes
+## Como rodar os testes
 ```bash
 # Execute todos os testes com:
 poetry run pytest -v
@@ -50,7 +50,7 @@ poetry run pytest -v
 
 ---
 
-## 🐳 Como rodar com Docker
+## Como rodar com Docker
 
 ### Build da imagem:
 
@@ -70,7 +70,7 @@ Acesse:
 
 ---
 
-## 📦 Endpoints esperados
+## Endpoints esperados
 
 ### `/model-airport/model/load/` (POST)
 
@@ -90,7 +90,7 @@ Retorna histórico de predições
 
 ---
 
-## 👨‍💻 Estrutura de pastas
+## Estrutura de pastas
 
 ```
 src/
@@ -105,7 +105,7 @@ tests/                   # Testes automatizados
 
 ---
 
-## 🧠 Autor
+## Autor
 
 Maikon Douglas G. dos Santos
 
